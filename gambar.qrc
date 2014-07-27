@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/gambar">
+        <file>ubuntu-logo.svg</file>
+        <file>synaptic.svg</file>
+        <file>softwarecenter.png</file>
+        <file>rhythmbox.svg</file>
+        <file>terminal.svg</file>
+    </qresource>
+</RCC>

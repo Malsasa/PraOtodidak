@@ -18,10 +18,10 @@ public:
     QWidget         *widgetUtama;
     QVBoxLayout     *vboxUtama;
     QHBoxLayout     *hboxUtama;
-    QPushButton     *tombolUbuntu;
-    QPushButton     *tombolMP3;
-    QPushButton     *tombolAplikasi;
-    QPushButton     *tombolSimulatorTerminal;
+    QToolButton     *tombolUbuntu;
+    QToolButton     *tombolMP3;
+    QToolButton     *tombolAplikasi;
+    QToolButton     *tombolSimulatorTerminal;
 
     ~MainWindow();
     
