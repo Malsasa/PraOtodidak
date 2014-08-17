@@ -93,14 +93,54 @@ void MainWindow::BukaJendelaBaru()
 {
     QMainWindow *jendelaKedua = new QMainWindow();
     QPushButton *tombolA      = new QPushButton("INI ADALAH AKU");
-    QWidget     *widgetA      = new QPushButton;
-    QVBoxLayout *layoutA      = new QVBoxLayout;
+    QPushButton *tombolB      = new QPushButton("INI ADALAH DIA");
+    QVBoxLayout *layoutLayerA = new QVBoxLayout;
+    QVBoxLayout *layoutLayerB = new QVBoxLayout;
+    QPushButton *tombolLayerA = new QPushButton("LAYER A");
+    QPushButton *tombolLayerB = new QPushButton("LAYER B");
+    QWidget     *widgetA      = new QWidget;
+    QWidget     *widgetB      = new QWidget;
+    QWidget     *widgetC      = new QWidget;
+
+    // percobaan QStackedLayout
+    QStackedLayout *slSatu    = new QStackedLayout;
+
+    widgetA->setLayout(layoutLayerA);
+    widgetB->setLayout(layoutLayerB);
+
+    layoutLayerA->addWidget(tombolLayerA);
+    layoutLayerB->addWidget(tombolLayerB);
+
+    // urusi widget Monday, August 18, 2014 12:52 AM
+    slSatu->addWidget(widgetA);
+    slSatu->addWidget(widgetB);
+
+    QVBoxLayout     *layoutA    =   new     QVBoxLayout;
+
+    layoutA->addLayout(slSatu);
     layoutA->addWidget(tombolA);
-    widgetA->setLayout(layoutA);
-    jendelaKedua->setCentralWidget(widgetA);
-    jendelaKedua->showMaximized();
+    layoutA->addWidget(tombolB);
+    widgetC->setLayout(layoutA);
+
+//    QVBoxLayout *layoutA      = new QVBoxLayout;
+//    layoutA->addWidget(tombolA);
+//    widgetA->setLayout(layoutA);
+
+//    QVBoxLayout *layoutB      = new QVBoxLayout;
+//    layoutB->addWidget(tombolB);
+//    widgetB->setLayout(layoutB);
+
+//    QVBoxLayout *layoutC      = new QVBoxLayout;
+
+//    widgetC->setLayout(layoutC);
+
+    jendelaKedua->setCentralWidget(widgetC);
+    jendelaKedua->showNormal();
 
     // fungsi ini bertugas mematikan jendela utama
     MainWindow::MatikanMainWindow();
+
+    connect(tombolA, SIGNAL(clicked()), jendelaKedua, SLOT(slSatu->setCurrentIndex(0)));
+    connect(tombolB, SIGNAL(clicked()), jendelaKedua, SLOT(slSatu->setCurrentIndex(1)));
 
 }
