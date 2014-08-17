@@ -29,7 +29,7 @@ MainWindow::MainWindow(QWidget *parent) :
     tombolSimulatorTerminal->setMinimumSize(66,66);
 
     // pengaturan objek ikon untuk setiap tombol (Sunday, July 27, 2014 10:57 PM)
-    QIcon       ikonTombolUbuntu(":/gambar/ubuntu-logo.svg");
+    QIcon       ikonTombolUbuntu(":/gambar/ubuntu-logo.svg");                   // semuanya svg
     QIcon       ikonTombolMP3(":/gambar/rhythmbox.svg");
     QIcon       ikonTombolAplikasi(":/gambar/synaptic.svg");
     QIcon       ikonTombolSimulatorTerminal(":/gambar/terminal.svg");
@@ -71,9 +71,31 @@ MainWindow::MainWindow(QWidget *parent) :
     // penempelan widget utama pada jendela utama, ditempel sebagai central widget (Sunday, July 27, 2014 10:57 PM)
     this->setCentralWidget(widgetUtama);
 
+    //tes signal slot untuk membuka jendela baru, dibuat pada Sunday, August 17, 2014 05:21 PM
+    connect(tombolMP3, SIGNAL(clicked()), this, SLOT(BukaJendelaBaru()));
+
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+
+void MainWindow::MatikanMainWindow()
+{
+    this->destroy(true, true);
+}
+
+void MainWindow::BukaJendelaBaru()
+{
+    QMainWindow *jendelaKedua = new QMainWindow();
+    QPushButton *tombolA      = new QPushButton("INI ADALAH AKU");
+    QWidget     *widgetA      = new QPushButton;
+    QVBoxLayout *layoutA      = new QVBoxLayout;
+    layoutA->addWidget(tombolA);
+    widgetA->setLayout(layoutA);
+    jendelaKedua->setCentralWidget(widgetA);
+    jendelaKedua->showMaximized();
+    MainWindow::MatikanMainWindow();
+
 }

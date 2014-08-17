@@ -27,6 +27,11 @@ public:
     
 private:
     Ui::MainWindow *ui;
+
+private slots:
+    void BukaJendelaBaru();
+    void MatikanMainWindow();
+
 };
 
 #endif // MAINWINDOW_H
