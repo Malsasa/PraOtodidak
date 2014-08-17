@@ -83,7 +83,10 @@ MainWindow::~MainWindow()
 
 void MainWindow::MatikanMainWindow()
 {
-    this->destroy(true, true);
+    // kalau mau beraksi seperti Otodidak versi 1, fungsi yang dipakai bukan destroy tetapi close
+    // ternyata tidak ada perubahan
+    // dikomentari pada Sunday, August 17, 2014 05:30 PM
+    this->close();
 }
 
 void MainWindow::BukaJendelaBaru()
@@ -96,6 +99,8 @@ void MainWindow::BukaJendelaBaru()
     widgetA->setLayout(layoutA);
     jendelaKedua->setCentralWidget(widgetA);
     jendelaKedua->showMaximized();
+
+    // fungsi ini bertugas mematikan jendela utama
     MainWindow::MatikanMainWindow();
 
 }
