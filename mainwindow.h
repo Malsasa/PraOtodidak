@@ -32,6 +32,7 @@ private:
 
 public slots:
     void BukaJendelaBaru();
+    void BukaJendelaMainWindow();
     void MatikanMainWindow();
     void stackSatu();
     void stackDua();

@@ -144,6 +144,8 @@ void MainWindow::BukaJendelaBaru()
     connect(tombolA, SIGNAL(clicked()), this, SLOT(stackSatu()));
     connect(tombolB, SIGNAL(clicked()), this, SLOT(stackDua()));
 
+    connect(tombolLayerA, SIGNAL(clicked()), this, SLOT(BukaJendelaMainWindow()));
+
 }
 
 // berhasil!
@@ -160,4 +162,17 @@ void MainWindow::stackSatu()
 void MainWindow::stackDua()
 {
     slSatu->setCurrentIndex(1);
+}
+
+// fungsi pemanggil jendela utama sekaligus pembunuh jendela kedua
+// Monday, August 18, 2014 08:15 PM
+void MainWindow::BukaJendelaMainWindow()
+{
+    // fungsi sederhana untuk menayangkan jendela utama kembali setelah matinya
+    // tidak usah berpkir susah MainWindow::? atau apalah
+    // Monday, August 18, 2014 08:13 PM
+    this->show();
+
+    // fungsi pembunuh jendela kedua
+    jendelaKedua->close();
 }
