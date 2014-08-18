@@ -22,15 +22,19 @@ public:
     QToolButton     *tombolMP3;
     QToolButton     *tombolAplikasi;
     QToolButton     *tombolSimulatorTerminal;
+    QStackedLayout  *slSatu;
 
     ~MainWindow();
     
 private:
     Ui::MainWindow *ui;
+    QMainWindow *jendelaKedua;
 
-private slots:
+public slots:
     void BukaJendelaBaru();
     void MatikanMainWindow();
+    void stackSatu();
+    void stackDua();
 
 };
 

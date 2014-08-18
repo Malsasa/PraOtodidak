@@ -91,7 +91,9 @@ void MainWindow::MatikanMainWindow()
 
 void MainWindow::BukaJendelaBaru()
 {
-    QMainWindow *jendelaKedua = new QMainWindow();
+    // deklarasi pembuatan objek jendela baru
+    jendelaKedua = new QMainWindow;
+
     QPushButton *tombolA      = new QPushButton("INI ADALAH AKU");
     QPushButton *tombolB      = new QPushButton("INI ADALAH DIA");
     QVBoxLayout *layoutLayerA = new QVBoxLayout;
@@ -103,7 +105,7 @@ void MainWindow::BukaJendelaBaru()
     QWidget     *widgetC      = new QWidget;
 
     // percobaan QStackedLayout
-    QStackedLayout *slSatu    = new QStackedLayout;
+    slSatu    = new QStackedLayout;
 
     widgetA->setLayout(layoutLayerA);
     widgetB->setLayout(layoutLayerB);
@@ -115,24 +117,18 @@ void MainWindow::BukaJendelaBaru()
     slSatu->addWidget(widgetA);
     slSatu->addWidget(widgetB);
 
+    // pembuatan layout dasar untuk menampung stacked layout dan widget lainnya
+    // dikomentari pada Monday, August 18, 2014 08:04 PM
     QVBoxLayout     *layoutA    =   new     QVBoxLayout;
 
+    // pemasangan stacked layout ke dalam layout normal dilakukan dengan hanya addLayout() bukan dengan membuat QWidget baru
+    // dengan cara ini, penghematan widget dan layout bisa dilakukan
+    // sehingga bisa dilakukan di dalam suatu QVBoxLayout penambahan layout sekaligus penambahan widget tanpa banyak QWidget baru
+    // Monday, August 18, 2014 08:03 PM
     layoutA->addLayout(slSatu);
     layoutA->addWidget(tombolA);
     layoutA->addWidget(tombolB);
     widgetC->setLayout(layoutA);
-
-//    QVBoxLayout *layoutA      = new QVBoxLayout;
-//    layoutA->addWidget(tombolA);
-//    widgetA->setLayout(layoutA);
-
-//    QVBoxLayout *layoutB      = new QVBoxLayout;
-//    layoutB->addWidget(tombolB);
-//    widgetB->setLayout(layoutB);
-
-//    QVBoxLayout *layoutC      = new QVBoxLayout;
-
-//    widgetC->setLayout(layoutC);
 
     jendelaKedua->setCentralWidget(widgetC);
     jendelaKedua->showNormal();
@@ -140,7 +136,28 @@ void MainWindow::BukaJendelaBaru()
     // fungsi ini bertugas mematikan jendela utama
     MainWindow::MatikanMainWindow();
 
-    connect(tombolA, SIGNAL(clicked()), jendelaKedua, SLOT(slSatu->setCurrentIndex(0)));
-    connect(tombolB, SIGNAL(clicked()), jendelaKedua, SLOT(slSatu->setCurrentIndex(1)));
+    // berhasil!
+    // pergeseran layer bisa dilakukan dengan memasang slot satu fungsi tunggal
+    // fungsi eksternal yang dibuat di luar fungsi pembuat jendela BukaJendelaBaru()
+    // bukan dengan cara memanggil slSatu->setCurrentIndex(int nomor) sebagai argumen SLOT
+    // Monday, August 18, 2014 08:00 PM
+    connect(tombolA, SIGNAL(clicked()), this, SLOT(stackSatu()));
+    connect(tombolB, SIGNAL(clicked()), this, SLOT(stackDua()));
 
+}
+
+// berhasil!
+// untuk melakukan pergantian layer, harus dibuat fungsi penggeser layer terpisah dari fungsi pembuat jendela
+// tidak dijadikan satu dalam fungsi pembuat jendela
+// objek stack layout harus dideklarasikan dalam kelas yang sama dengan MainWindow utama, bukan dengan membuat kelas baru di mainwindow.h
+// oleh karena itu, slSatu bisa dipanggil dari sini
+// Monday, August 18, 2014 07:58 PM
+void MainWindow::stackSatu()
+{
+    slSatu->setCurrentIndex(0);
+}
+
+void MainWindow::stackDua()
+{
+    slSatu->setCurrentIndex(1);
 }
