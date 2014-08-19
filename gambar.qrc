@@ -5,5 +5,7 @@
         <file>softwarecenter.png</file>
         <file>rhythmbox.svg</file>
         <file>terminal.svg</file>
+        <file>otodidak.svg</file>
+        <file alias="logootodidak">logootodidakproporsional.png</file>
     </qresource>
 </RCC>

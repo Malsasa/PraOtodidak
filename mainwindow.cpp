@@ -360,6 +360,9 @@ MainWindow::MainWindow(QWidget *parent) :
     QToolButton *tombolSimulatorTerminal       =       new     QToolButton;
     QFont        ubuntu("Ubuntu", 20, QFont::Bold, false);                       // objek khusus untuk fonta label judul Tuesday, August 19, 2014 10:29 PM
 
+    // objek khusus untuk ikon jendela PraOtodidak Tuesday, August 19, 2014 10:56 PM
+    QIcon        logootodidak(":/gambar/logootodidak");         // ternyata memang harus PNG
+
     // pengaturan kemampuan mekar setiap tombol (Sunday, July 27, 2014 10:57 PM)
     tombolUbuntu->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
     tombolMP3->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
@@ -435,6 +438,9 @@ MainWindow::MainWindow(QWidget *parent) :
 
     //tes signal slot untuk membuka jendela baru, dibuat pada Sunday, August 17, 2014 05:21 PM
     connect(tombolMP3, SIGNAL(clicked()), this, SLOT(BukaJendelaBaru()));
+
+    // pemasangan ikon Otodidak untuk jendela Tuesday, August 19, 2014 10:56 PM
+    this->setWindowIcon(logootodidak);
 
 }
 
