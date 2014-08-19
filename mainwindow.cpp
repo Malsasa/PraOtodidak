@@ -351,12 +351,14 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     QWidget     *widgetUtama                   =       new     QWidget;
+    QLabel      *labelJudulOtodidak            =       new     QLabel("Otodidak Versi 2");
     QVBoxLayout *vboxUtama                     =       new     QVBoxLayout;
     QHBoxLayout *hboxUtama                     =       new     QHBoxLayout;
     QToolButton *tombolUbuntu                  =       new     QToolButton;
     QToolButton *tombolMP3                     =       new     QToolButton;
     QToolButton *tombolAplikasi                =       new     QToolButton;
     QToolButton *tombolSimulatorTerminal       =       new     QToolButton;
+    QFont        ubuntu("Ubuntu", 20, QFont::Bold, false);                       // objek khusus untuk fonta label judul Tuesday, August 19, 2014 10:29 PM
 
     // pengaturan kemampuan mekar setiap tombol (Sunday, July 27, 2014 10:57 PM)
     tombolUbuntu->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
@@ -409,13 +411,24 @@ MainWindow::MainWindow(QWidget *parent) :
     tombolSimulatorTerminal->setText("SIMULATOR \nTERMINAL");
 
     // penempelan widget-widget ke dalam layout (Sunday, July 27, 2014 10:57 PM)
+    // horizontal
     hboxUtama->addWidget(tombolUbuntu);
     hboxUtama->addWidget(tombolMP3);
     hboxUtama->addWidget(tombolAplikasi);
     hboxUtama->addWidget(tombolSimulatorTerminal);
 
+    // styling QLabel
+    labelJudulOtodidak->setAlignment(Qt::AlignCenter);
+    labelJudulOtodidak->setStyleSheet("QLabel { background-color : black; color : white; }");
+    labelJudulOtodidak->setFont(ubuntu);
+    labelJudulOtodidak->setMinimumHeight(30);
+
+    // vboxlayout diisi dengan QLabel dan QHBoxLayout
+    vboxUtama->addWidget(labelJudulOtodidak);
+    vboxUtama->addLayout(hboxUtama);
+
     // penempelan layout pada widget utama (Sunday, July 27, 2014 10:57 PM)
-    widgetUtama->setLayout(hboxUtama);
+    widgetUtama->setLayout(vboxUtama);
 
     // penempelan widget utama pada jendela utama, ditempel sebagai central widget (Sunday, July 27, 2014 10:57 PM)
     this->setCentralWidget(widgetUtama);
@@ -430,6 +443,8 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+// ini fungsi pembunuh jendela utama yang akan dipagnggil di dalam fungsi BukaJendelaBaru di bawah
+// dikomentari pada Tuesday, August 19, 2014 10:44 PM
 void MainWindow::MatikanMainWindow()
 {
     // kalau mau beraksi seperti Otodidak versi 1*), fungsi yang dipakai bukan destroy tetapi close
@@ -439,6 +454,7 @@ void MainWindow::MatikanMainWindow()
     this->close();
 }
 
+// ===================FUNGSI KEDUA================== //
 // fungsi khusus pembuat jendela kedua
 // dikomentari pada Monday, August 18, 2014 08:21 PM
 void MainWindow::BukaJendelaBaru()
@@ -455,6 +471,7 @@ void MainWindow::BukaJendelaBaru()
     QWidget     *widgetA      = new QWidget;
     QWidget     *widgetB      = new QWidget;
     QWidget     *widgetC      = new QWidget;
+
 
     // pengaturan ukuran tombol untuk jendela kedua
     // Monday, August 18, 2014 08:22 PM

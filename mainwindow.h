@@ -24,6 +24,7 @@ public:
     QToolButton     *tombolSimulatorTerminal;
     QStackedLayout  *slSatu;
 
+
     ~MainWindow();
     
 private:
