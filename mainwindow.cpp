@@ -364,11 +364,18 @@ MainWindow::MainWindow(QWidget *parent) :
     tombolAplikasi->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
     tombolSimulatorTerminal->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
 
-    // pengaturan ukuran minimal tombol
-    tombolUbuntu->setMinimumSize(66,66);
-    tombolMP3->setMinimumSize(66,66);
-    tombolAplikasi->setMinimumSize(66,66);
-    tombolSimulatorTerminal->setMinimumSize(66,66);
+    // pengaturan ukuran minimum maksimum tombol
+    //      pengaturan ukuran minimal tombol
+    tombolUbuntu->setMinimumSize(99,99);
+    tombolMP3->setMinimumSize(99,99);
+    tombolAplikasi->setMinimumSize(99,99);
+    tombolSimulatorTerminal->setMinimumSize(99,99);
+
+    //      pengaturan ukuran maksimum tombol Tuesday, August 19, 2014 09:04 PM
+    tombolUbuntu->setMaximumSize(150, 150);
+    tombolMP3->setMaximumSize(150, 150);
+    tombolAplikasi->setMaximumSize(150, 150);
+    tombolSimulatorTerminal->setMaximumSize(150, 150);
 
     // pengaturan objek ikon untuk setiap tombol (Sunday, July 27, 2014 10:57 PM)
     QIcon       ikonTombolUbuntu(":/gambar/ubuntu-logo.svg");                   // semuanya svg
@@ -425,9 +432,10 @@ MainWindow::~MainWindow()
 
 void MainWindow::MatikanMainWindow()
 {
-    // kalau mau beraksi seperti Otodidak versi 1, fungsi yang dipakai bukan destroy tetapi close
+    // kalau mau beraksi seperti Otodidak versi 1*), fungsi yang dipakai bukan destroy tetapi close
     // ternyata tidak ada perubahan
     // dikomentari pada Sunday, August 17, 2014 05:30 PM
+    // *) http://malsasa.wordpress.com/2013/02/24/otodidak-versi-1-dirilis/
     this->close();
 }
 
