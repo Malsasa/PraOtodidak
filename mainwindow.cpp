@@ -1,5 +1,6 @@
 // Proyek Sebelum Proyek Otodidak
 // Dibuat pada malam Id pada Sunday, July 27, 2014 10:21 PM
+// Ade Malsasa Akbar <teknoloid@gmail.com> <http://malsasa.wordpress.com> <#ubuntu-indonesia@freenode>
 /* LISENSI GNU GPL VERSI 2
 GNU GENERAL PUBLIC LICENSE
                        Version 2, June 1991
