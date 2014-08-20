@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg3289"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="logootodidak.svg">
+  <defs
+     id="defs3291">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4279">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1"
+         offset="0"
+         id="stop4281" />
+      <stop
+         style="stop-color:#800000;stop-opacity:1"
+         offset="1"
+         id="stop4283" />
+    </linearGradient>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter5473"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood5475"
+         flood-opacity="0.7"
+         flood-color="rgb(0,0,0)"
+         result="flood" />
+      <feComposite
+         id="feComposite5477"
+         in2="SourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur5479"
+         stdDeviation="3"
+         result="blur" />
+      <feOffset
+         id="feOffset5481"
+         dx="-1"
+         dy="4"
+         result="offset" />
+      <feComposite
+         id="feComposite5483"
+         in2="offset"
+         in="SourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5503"
+       id="radialGradient5607"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.10686529,0.65351809,-1.25197,0.20473697,628.26557,68.762916)"
+       cx="366.60391"
+       cy="197.3112"
+       fx="366.60391"
+       fy="197.3112"
+       r="181.74374" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5503">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5505" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop5507" />
+    </linearGradient>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter3271"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood3273"
+         flood-opacity="0.7"
+         flood-color="rgb(0,0,0)"
+         result="flood" />
+      <feComposite
+         id="feComposite3275"
+         in2="SourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur3277"
+         stdDeviation="3"
+         result="blur" />
+      <feOffset
+         id="feOffset3279"
+         dx="-1"
+         dy="4"
+         result="offset" />
+      <feComposite
+         id="feComposite3281"
+         in2="offset"
+         in="SourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <radialGradient
+       r="181.74374"
+       fy="197.3112"
+       fx="366.60391"
+       cy="197.3112"
+       cx="366.60391"
+       gradientTransform="matrix(0.10686529,0.65351809,-1.25197,0.20473697,628.26557,68.762916)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient3287"
+       xlink:href="#linearGradient5503"
+       inkscape:collect="always" />
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter6219"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood6221"
+         flood-opacity="0.7"
+         flood-color="rgb(0,0,0)"
+         result="flood" />
+      <feComposite
+         id="feComposite6223"
+         in2="SourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur6225"
+         stdDeviation="3"
+         result="blur" />
+      <feOffset
+         id="feOffset6227"
+         dx="-1"
+         dy="4"
+         result="offset" />
+      <feComposite
+         id="feComposite6229"
+         in2="offset"
+         in="SourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter3364"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood3366"
+         flood-opacity="0.7"
+         flood-color="rgb(0,0,0)"
+         result="flood" />
+      <feComposite
+         id="feComposite3368"
+         in2="SourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur3370"
+         stdDeviation="3"
+         result="blur" />
+      <feOffset
+         id="feOffset3372"
+         dx="-1"
+         dy="4"
+         result="offset" />
+      <feComposite
+         id="feComposite3374"
+         in2="offset"
+         in="SourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <filter
+       id="filter4267"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood4269"
+         flood-opacity="0.7"
+         flood-color="rgb(0,0,0)"
+         result="flood" />
+      <feComposite
+         id="feComposite4271"
+         in2="SourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur4273"
+         in="composite"
+         stdDeviation="2"
+         result="blur" />
+      <feOffset
+         id="feOffset4275"
+         dx="-1"
+         dy="2"
+         result="offset" />
+      <feComposite
+         id="feComposite4277"
+         in2="offset"
+         in="SourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4279"
+       id="radialGradient4293"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.16014164,0.73969326,-1.1124393,0.24075186,552.49777,-37.326376)"
+       cx="378.48605"
+       cy="229.98099"
+       fx="378.48605"
+       fy="229.98099"
+       r="134.23125" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.7307236"
+     inkscape:cx="278.76797"
+     inkscape:cy="710.02761"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1306"
+     inkscape:window-height="744"
+     inkscape:window-x="60"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3294">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g5602"
+       transform="matrix(0.73745748,0,0,0.73745748,68.627106,207.55786)"
+       inkscape:export-filename="/home/master/Dokumen/Pelajaran/Pak Anom/LOGOEFFIRO.png"
+       inkscape:export-xdpi="100.06741"
+       inkscape:export-ydpi="100.06741">
+      <rect
+         y="366.65576"
+         x="263.99683"
+         height="147.57849"
+         width="302.89297"
+         id="rect5384"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect3834"
+         d="m 263.9917,366.65679 0,147.5625 302.90625,0 0,-147.5625 -302.90625,0 z m 54.40625,48.25 18.37501,11.375 c 9.15008,3.27304 15.65625,12.00964 15.65625,22.3125 0,13.12107 -10.56643,23.6875 -23.68751,23.6875 -13.12107,0 -23.6875,-10.56643 -23.6875,-23.6875 0,-11.84604 8.60854,-21.58979 19.9375,-23.375 l -6.59375,-10.3125 z m 10.34375,17.8125 c -8.78984,0 -15.875,7.08515 -15.875,15.875 0,8.78984 7.08516,15.84375 15.875,15.84375 8.78985,0 15.87501,-7.05391 15.87501,-15.84375 0,-8.78985 -7.08516,-15.875 -15.87501,-15.875 z m 0,7.65625 c 4.54304,0 8.18751,3.6757 8.18751,8.21875 0,4.54304 -3.64447,8.1875 -8.18751,8.1875 -4.54304,0 -8.1875,-3.64446 -8.1875,-8.1875 0,-4.54305 3.64446,-8.21875 8.1875,-8.21875 z m 32.21876,1.21875 25.06249,0 0,5.125 -31.34375,0 0,-0.3125 c 0,-1.32737 0.62698,-2.44581 1.84375,-3.375 1.21677,-0.95127 2.68977,-1.43748 4.4375,-1.4375 z m 34.87499,0 25.0625,0 0,5.125 -31.34375,0 0,-0.3125 c 0,-1.32737 0.62698,-2.44581 1.84375,-3.375 1.21677,-0.95127 2.68977,-1.43748 4.4375,-1.4375 z m 34.875,0 25.0625,0 0,5.125 -31.34375,0 0,-0.3125 c 0,-1.32737 0.62697,-2.44581 1.84375,-3.375 1.21676,-0.95127 2.68977,-1.43748 4.4375,-1.4375 z m 28.59375,0 4.96875,0 0,5.125 -4.96875,0 0,-5.125 z m 8.625,0 25.0625,0 c 0.8849,2e-5 1.69443,0.12254 2.46875,0.34375 0.77428,0.19912 1.4469,0.51718 2,0.9375 0.55305,0.42035 0.9715,0.9522 1.28125,1.59375 0.33182,0.64159 0.49997,1.38721 0.5,2.25 l 0,2.1875 c -3e-5,1.68136 -0.52274,2.84544 -1.5625,3.53125 -1.01769,0.68582 -2.60409,1.03126 -4.75,1.03125 l 6.3125,7.4375 -5.4375,0 -6.3125,-7.4375 -14.59375,0 0,7.4375 -4.96875,0 0,-12 26.15625,0 0,-2.1875 -26.15625,0 0,-5.125 z m 41.125,0 18.78125,0 c 1.72557,2e-5 3.22983,0.49535 4.46875,1.46875 1.21674,0.92918 1.81247,2.04763 1.8125,3.375 l 0,9.65625 c -3e-5,1.32739 -0.59576,2.48621 -1.8125,3.4375 -1.23892,0.92917 -2.74318,1.375 -4.46875,1.375 l -18.78125,0 c -1.74774,0 -3.22073,-0.44583 -4.4375,-1.375 -1.21677,-0.95129 -1.8125,-2.11011 -1.8125,-3.4375 l 0,-9.6875 c 0,-1.32737 0.59573,-2.44581 1.8125,-3.375 1.21677,-0.95127 2.68976,-1.43748 4.4375,-1.4375 z m 2.9375,5.125 c -1.17254,10e-6 -2.17232,0.24118 -2.96875,0.75 -0.79643,0.48672 -1.20576,1.1137 -1.25,1.84375 l 0,3.6875 c 0,0.35397 0.0821,0.69941 0.28125,1.03125 0.22122,0.30973 0.53016,0.6004 0.90625,0.84375 0.37609,0.24336 0.83492,0.4389 1.34375,0.59375 0.50882,0.13275 1.05892,0.18751 1.65625,0.1875 l 13.0625,0 c 1.06189,10e-6 2.00305,-0.25029 2.84375,-0.78125 0.86279,-0.55307 1.31247,-1.20743 1.3125,-1.9375 l 0,-3.71875 c -0.15489,-0.66368 -0.63197,-1.24116 -1.40625,-1.75 -0.75221,-0.50882 -1.71163,-0.74999 -2.90625,-0.75 l -12.875,0 z m -52.6875,2.125 4.96875,0 0,12.0625 -4.96875,0 0,-12.0625 z m -104.625,0.0625 31.34375,0 0,4.5625 -26.34375,0 0,2.1875 26.34375,0 0,5.25 -25.0625,0 c -1.74773,0 -3.22073,-0.44583 -4.4375,-1.375 -1.21677,-0.95129 -1.84375,-2.11011 -1.84375,-3.4375 l 0,-7.1875 z m 34.875,0 31.34375,0 0,4.5625 -26.34375,0 0,7.4375 -5,0 0,-12 z m 34.875,0 31.34375,0 0,4.5625 -26.375,0 0,7.4375 -4.96875,0 0,-12 z"
+         style="fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter5473)" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:url(#radialGradient3287);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter5473)"
+         d="m 263.9917,366.65679 0,147.5625 302.90625,0 0,-147.5625 -302.90625,0 z m 54.40625,48.25 18.37501,11.375 c 9.15008,3.27304 15.65625,12.00964 15.65625,22.3125 0,13.12107 -10.56643,23.6875 -23.68751,23.6875 -13.12107,0 -23.6875,-10.56643 -23.6875,-23.6875 0,-11.84604 8.60854,-21.58979 19.9375,-23.375 l -6.59375,-10.3125 z m 10.34375,17.8125 c -8.78984,0 -15.875,7.08515 -15.875,15.875 0,8.78984 7.08516,15.84375 15.875,15.84375 8.78985,0 15.87501,-7.05391 15.87501,-15.84375 0,-8.78985 -7.08516,-15.875 -15.87501,-15.875 z m 0,7.65625 c 4.54304,0 8.18751,3.6757 8.18751,8.21875 0,4.54304 -3.64447,8.1875 -8.18751,8.1875 -4.54304,0 -8.1875,-3.64446 -8.1875,-8.1875 0,-4.54305 3.64446,-8.21875 8.1875,-8.21875 z m 32.21876,1.21875 25.06249,0 0,5.125 -31.34375,0 0,-0.3125 c 0,-1.32737 0.62698,-2.44581 1.84375,-3.375 1.21677,-0.95127 2.68977,-1.43748 4.4375,-1.4375 z m 34.87499,0 25.0625,0 0,5.125 -31.34375,0 0,-0.3125 c 0,-1.32737 0.62698,-2.44581 1.84375,-3.375 1.21677,-0.95127 2.68977,-1.43748 4.4375,-1.4375 z m 34.875,0 25.0625,0 0,5.125 -31.34375,0 0,-0.3125 c 0,-1.32737 0.62697,-2.44581 1.84375,-3.375 1.21676,-0.95127 2.68977,-1.43748 4.4375,-1.4375 z m 28.59375,0 4.96875,0 0,5.125 -4.96875,0 0,-5.125 z m 8.625,0 25.0625,0 c 0.8849,2e-5 1.69443,0.12254 2.46875,0.34375 0.77428,0.19912 1.4469,0.51718 2,0.9375 0.55305,0.42035 0.9715,0.9522 1.28125,1.59375 0.33182,0.64159 0.49997,1.38721 0.5,2.25 l 0,2.1875 c -3e-5,1.68136 -0.52274,2.84544 -1.5625,3.53125 -1.01769,0.68582 -2.60409,1.03126 -4.75,1.03125 l 6.3125,7.4375 -5.4375,0 -6.3125,-7.4375 -14.59375,0 0,7.4375 -4.96875,0 0,-12 26.15625,0 0,-2.1875 -26.15625,0 0,-5.125 z m 41.125,0 18.78125,0 c 1.72557,2e-5 3.22983,0.49535 4.46875,1.46875 1.21674,0.92918 1.81247,2.04763 1.8125,3.375 l 0,9.65625 c -3e-5,1.32739 -0.59576,2.48621 -1.8125,3.4375 -1.23892,0.92917 -2.74318,1.375 -4.46875,1.375 l -18.78125,0 c -1.74774,0 -3.22073,-0.44583 -4.4375,-1.375 -1.21677,-0.95129 -1.8125,-2.11011 -1.8125,-3.4375 l 0,-9.6875 c 0,-1.32737 0.59573,-2.44581 1.8125,-3.375 1.21677,-0.95127 2.68976,-1.43748 4.4375,-1.4375 z m 2.9375,5.125 c -1.17254,10e-6 -2.17232,0.24118 -2.96875,0.75 -0.79643,0.48672 -1.20576,1.1137 -1.25,1.84375 l 0,3.6875 c 0,0.35397 0.0821,0.69941 0.28125,1.03125 0.22122,0.30973 0.53016,0.6004 0.90625,0.84375 0.37609,0.24336 0.83492,0.4389 1.34375,0.59375 0.50882,0.13275 1.05892,0.18751 1.65625,0.1875 l 13.0625,0 c 1.06189,10e-6 2.00305,-0.25029 2.84375,-0.78125 0.86279,-0.55307 1.31247,-1.20743 1.3125,-1.9375 l 0,-3.71875 c -0.15489,-0.66368 -0.63197,-1.24116 -1.40625,-1.75 -0.75221,-0.50882 -1.71163,-0.74999 -2.90625,-0.75 l -12.875,0 z m -52.6875,2.125 4.96875,0 0,12.0625 -4.96875,0 0,-12.0625 z m -104.625,0.0625 31.34375,0 0,4.5625 -26.34375,0 0,2.1875 26.34375,0 0,5.25 -25.0625,0 c -1.74773,0 -3.22073,-0.44583 -4.4375,-1.375 -1.21677,-0.95129 -1.84375,-2.11011 -1.84375,-3.4375 l 0,-7.1875 z m 34.875,0 31.34375,0 0,4.5625 -26.34375,0 0,7.4375 -5,0 0,-12 z m 34.875,0 31.34375,0 0,4.5625 -26.375,0 0,7.4375 -4.96875,0 0,-12 z"
+         id="path5485" />
+    </g>
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/master/Dokumen/Pelajaran/Pak Anom/logootodidak.png"
+       style="fill:#800000;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.99999994;stroke-opacity:1"
+       id="rect6113"
+       width="106.39087"
+       height="51.557838"
+       x="302.00497"
+       y="304.84824" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/master/Dokumen/Pelajaran/Pak Anom/logootodidak.png"
+       style="fill:#800000;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.99999994;stroke-opacity:1"
+       id="rect5986"
+       width="106.39087"
+       height="51.557838"
+       x="302.00497"
+       y="304.84824" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/master/Dokumen/Pelajaran/Pak Anom/logootodidak.png"
+       inkscape:connector-curvature="0"
+       id="rect3434"
+       transform="matrix(0.47558469,0,0,0.47350831,186.27396,174.07132)"
+       d="m 243.34375,276.1875 0,108.875 223.71875,0 0,-108.875 z"
+       style="fill:url(#radialGradient4293);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter4267)"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3436"
+       y="326.50287"
+       x="311.56876"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"><tspan
+         y="326.50287"
+         x="311.56876"
+         id="tspan3438"
+         sodipodi:role="line" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="342.02481"
+       y="332.39459"
+       id="text3046"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3048"
+         x="342.02481"
+         y="332.39459">OTODIDAK</tspan></text>
+  </g>
+</svg>
